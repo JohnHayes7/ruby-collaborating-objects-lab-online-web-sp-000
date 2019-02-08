@@ -42,7 +42,7 @@ class Artist
   
   def self.find_or_create_by_name(name)
     j = self.find(name) || self.create(name)
-    binding.pry
+    # binding.pry
   end
   
   def print_songs
