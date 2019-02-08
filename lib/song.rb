@@ -19,6 +19,7 @@ class Song
     artist = Artist.find_or_create_by_filename(name)
     self.artist = artist
     artist.add_song = self
+  end
   
   
   
