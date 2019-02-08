@@ -33,6 +33,7 @@ class Artist
     artist = self.new(name)
     artist.name = name
     artist.save
+    artist
   end
   
   def self.find(name)
