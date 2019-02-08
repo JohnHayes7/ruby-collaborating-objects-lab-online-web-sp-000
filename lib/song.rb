@@ -18,6 +18,7 @@ class Song
   def artist_name=(name)
     artist = Artist.find_or_create_by_filename(name)
     self.artist = artist
+    artist.add_song = self
   
   
   
