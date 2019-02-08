@@ -35,6 +35,9 @@ class Artist
     artist.save
   end
   
+  def self.find(name)
+    @@all
+  
   # def self.find_or_create_by_name(name)
   #     self.all.detect{|a| a.name == name} || self.new(name).save
   # end
